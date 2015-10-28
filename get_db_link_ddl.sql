@@ -1,0 +1,1 @@
+SELECT DBMS_METADATA.GET_DDL ('DB_LINK', a.db_link, a.owner) FROM dba_db_links a
